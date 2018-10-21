@@ -1,0 +1,1 @@
+Altera PLD can be set working at 3.3V PCI， io pins include a clamping diode， use a resistor between fpga and 5V IC.
