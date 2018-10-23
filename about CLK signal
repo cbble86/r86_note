@@ -1,0 +1,2 @@
+Datasheets show almost all of 5V ic need more than 4.0V clock VIH， and 8284 can send out 3.9V+， use pld rebuild the clock module， at least
+need pull up res.
