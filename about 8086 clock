@@ -1,4 +1,4 @@
-Some informations show 8086/88 use a low speed clock also run well. I guess 4-8Mhz link to 8086-2 is ok，but frozen clk not. Use fpga
+Some informations show 8086/88 use a low speed clock also run well. I guess 4-8Mhz link to 8086-2 is ok，but frozen clk fail. Use fpga
 make a div_clock module， after test I will write down exact answer. perhaps D8086, P8086, compatible chip are different.
 
 Use max7000s cpld, I have get a 4.17Mhz, 33% duty cycle signal(50Mhz / 12), succeeded in running this min_system.
