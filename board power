@@ -1,0 +1,2 @@
+The cpu and fpu need +5V, a cell phone adapter is used the main power， and MAX7000S need +3.3V to VCCIO, I selected a MP1584EN module
+to get it. This can output max 3A. Adjust the res get 0.8 to 20v output volt.
