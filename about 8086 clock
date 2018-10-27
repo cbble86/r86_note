@@ -3,5 +3,7 @@ make a div_clock module， after test I will write down exact answer. perhaps D8
 
 Use max7000s cpld, I have get a 4.17Mhz, 33% duty cycle signal(50Mhz / 12), succeeded in running this min_system.
 
-Because of cpld's erasing times， I don't want change src many times, so use a fpga output different speed clk to cpld, and cpld div
-it to cpu, the volt 3.3v trans to 5v(Voh ~ 3.6v).
+Because of cpld's erasing times， I don't want to change bit stream many times, so use a fpga output different speed clk to cpld, and 
+cpld div it for cpu, the volt 3.3v trans to 5v(Voh ~ 3.6v). 
+
+Some infomations said if clk's quality is good， 50% duty cycle drive it too.
