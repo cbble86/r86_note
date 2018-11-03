@@ -1,0 +1,2 @@
+tip1.If the 244/245 tri-gate only be used to drive the other ic on board, they are not necessary write in logic. Because the eda tool
+will automaticly call the buffers in pld.
