@@ -1,0 +1,1 @@
+8288 is a decoder of s2_n-s0_n ,but if io device is slow, cpu need input some tw cycle. So 8288 should output what signals?
