@@ -1,2 +1,5 @@
 MAX7000S cpld can replace 245, but 373 logic didn't work, data bus show 0xff. But use dip switchs and leds, the 373 logic works well.
 I guess the junk dupont line cause the result. I have begun draw pcb for 8088, I look forward to the sucessful.
+
+
+Fix the latch enable logic，now it have worked， 20 times boot then 1 time success， at least the phenomenon is a good sign.
