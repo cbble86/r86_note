@@ -1,1 +1,4 @@
 8288 is a decoder of s2_n-s0_n ,but if io device is slow, cpu need input some tw cycle. So 8288 should output what signals?
+
+when cpu at Tw cycle， s_n output 111, 8288 at idle state, when pass t4 and begin a new cycle, s_n output ~halt, 8288's state machine 
+also begin work.
