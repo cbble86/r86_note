@@ -1,0 +1,2 @@
+jtag vcc need to equal to vccio. For example, when vccio connect to 3.3v, jtag pull up res also connect to it.
+The pull up and pull down res should use how many ohm, neet more information.
