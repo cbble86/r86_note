@@ -1,0 +1,3 @@
+To the hardware work well， the modules need a internal reset.Such as the PLL locked signal. We also can use a counter, 
+If the input rst_key signal keep high(not posedge or negedge), the logic creat a rst volt. Then this signal is send to
+every modules, as a global reset。
